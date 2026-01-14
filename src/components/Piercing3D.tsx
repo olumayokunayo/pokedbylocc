@@ -3,7 +3,7 @@ import { OrbitControls, useGLTF, Html } from "@react-three/drei";
 import { Suspense } from "react";
 
 const Piercing3D = () => {
-  const { scene } = useGLTF("src/models/nose_piercing.glb");
+  const { scene } = useGLTF("/models/nose_piercing.glb");
 
   return (
     <Canvas
