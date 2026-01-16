@@ -77,11 +77,7 @@ const Footer = () => {
         {/* Social Links & Copyright */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-center items-center gap-4">
           <p className="text-gray-400 text-sm">
-            &copy; {currentYear} Pokedbylocc. All rights reserved.
-            <span className="hidden md:inline">
-              {" "}
-              | Certified body piercing studio in Atlanta, GA
-            </span>
+            &copy;{currentYear} Pokedbylocc. All rights reserved.
           </p>
         </div>
       </div>

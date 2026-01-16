@@ -4,10 +4,11 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 import image1 from "../assets/image1.jpg";
 import image2 from "../assets/image2.jpg";
+// import image4 from "../assets/image6.jpg";
 import image5 from "../assets/image5.jpg";
-import image6 from "../assets/image6.jpg";
 import image7 from "../assets/image7.jpg";
 import image8 from "../assets/image8.jpg";
+import image3 from "../assets/image3.jpg";
 
 const Gallery = () => {
   const ref = useRef(null);
@@ -16,10 +17,11 @@ const Gallery = () => {
   const galleryImages = [
     { url: image1, alt: "Stomach dermal piercing by Pokedbylocc" },
     { url: image2, alt: "Double tragus piercing by Pokedbylocc" },
+    // { url: image4, alt: "Single dermal piercing by Pokedbylocc" },
     { url: image5, alt: "Double dermal piercings by Pokedbylocc" },
-    { url: image6, alt: "Single dermal piercing by Pokedbylocc" },
     { url: image7, alt: "Full ear piercing set by Pokedbylocc" },
     { url: image8, alt: "Snake eyes piercings by Pokedbylocc" },
+    { url: image3, alt: "Double dermal piercings by Pokedbylocc" },
   ];
 
   return (
