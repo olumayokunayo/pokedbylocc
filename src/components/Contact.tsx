@@ -229,6 +229,24 @@ const Contact = () => {
           </motion.a>
         </motion.div>
       </div>
+
+      {/* MAP SECTION */}
+      <div className="mt-10 max-w-4xl mx-auto text-center">
+        <h3 className="text-2xl font-bold text-white mb-4">
+          Find Us in Atlanta, GA
+        </h3>
+
+        <div className="w-full h-[400px] rounded-2xl overflow-hidden border border-gray-700">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.1338549899174!2d-84.43514352364718!3d33.54989837335031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f4fb31f31baff7%3A0x4fe1228c890c53ae!2s1296%20GA-138%2C%20Riverdale%2C%20GA%2030296%2C%20USA!5e0!3m2!1sen!2suk!4v1768561732046!5m2!1sen!2suk"
+            width="100%"
+            height="100%"
+            loading="lazy"
+            className="border-0"
+            allowFullScreen
+          />
+        </div>
+      </div>
     </section>
   );
 };
